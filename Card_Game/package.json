@@ -1,0 +1,22 @@
+{
+    "dependencies": {
+        "express": "^4.18.0",
+        "express-session": "^1.17.2",
+        "mysql2": "^2.3.3",
+        "body-parser": "^1.20.0",
+        "thymeleaf": "^0.21.0",
+        "express-thymeleaf": "^0.3.0",
+        "read-config": "^2.0.0",
+        "nodemailer": "^6.7.4",
+        "path": "^0.12.7",
+        "bcrypt": "^5.0.1",
+        "fs": "^0.0.1-security"
+    },
+    "type": "module",
+    "name": "t03",
+    "version": "1.0.0",
+    "main": "index.js",
+    "description": "bring them together",
+    "license": "ISC"
+}
+

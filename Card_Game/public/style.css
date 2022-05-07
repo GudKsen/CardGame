@@ -1,0 +1,82 @@
+.container {
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+}
+
+.menu {
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    align-items: center;
+    justify-items: center; 
+}
+
+
+
+h1 {
+    display: inline;
+}
+
+.menu-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* .buttons-greeting {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-bottom: 10px;
+} */
+
+.greeting {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.527)) , url(./images/marvel1.jpg);
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+label {
+    font-size: x-large;
+}
+
+input {
+    padding: 7px;
+    border: none;
+    outline: none;
+    font-size: large;
+}
+
+.button {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+button {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+}
+
+.game {
+    background-image: url(../battlefield.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

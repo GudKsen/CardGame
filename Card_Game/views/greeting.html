@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Greeting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/style.css" />
+    <link rel="stylesheet" href="../public/style-greeting.css" />
+</head>
+
+<body>
+    <div class="greeting">
+        <div class="greeting-user">
+            <h1>Hello, </h1>
+            <h1 thjs:text="${login}"></h1>
+        </div><br>
+        <h1 class="status" thjs:text="${userStatus}"></h1>
+        <div class="buttons-greeting">
+            <form action="/log_out" method="post" class="form-greeting">
+                <button id="log-out">Log out</button>
+            </form>
+            <button class="button-greeting" onclick="history.back()">Back</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

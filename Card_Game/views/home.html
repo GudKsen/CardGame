@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        
+            <h1>Welcome</h1>
+            <div class="group-button">
+                <button type="submit" id="sign-in" name="sign_in" value="sign_in">Sign in</button>
+                <button type="submit" id="sign-up" name="sign_up" value="sign_up">Sign up</button>
+            </div>
+
+    </div>
+
+    <script>
+        const sign_in = document.querySelector('#sign-in');
+        const sign_up = document.querySelector('#sign-up');
+
+        sign_in.addEventListener('click', (event) => {
+            location.href = "/login";
+        })
+
+        sign_up.addEventListener('click', (event) => {
+            location.href = "/registration";
+        })
+    </script>
+
+</body>
+
+</html>

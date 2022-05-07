@@ -1,0 +1,15 @@
+.greeting-user {
+    /* display: block;
+    width: auto; */
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.buttons-greeting {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
